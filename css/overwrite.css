@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 9px;
+	padding: 1em;
+}
+td {
+	white-space: nowrap;
+}
+label{
+    display: inline!important;
+    font-size: 1rem;
+    vertical-align: top;
+    
+}
+button{
+    background-color:#606c76;
+    border:#606c76;
+    border-radius:0;
+    height: 2rem;
+    line-height: 100%;
+    box-shadow: 3px 3px 8px 0px rgba(50, 50, 50, 0.11);
+}
+.table_title{
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+#content {
+    position: relative;
+}
+.ribbon {
+    width:40px;
+    position: absolute;
+    top: 0px;
+}
+#login_icon {
+  right: 60px;
+}
+#pdf_icon {
+  right: 0px;
+}
+#editor{
+  display: inline-block;
+  white-space: nowrap;
+}
+.selected{
+  color: orange;
+  transition: color 0.8s;
+}
+.eye{
+  fill: grey;
+  width: 35px;
+  vertical-align: middle;
+  transition: fill 0.3s;
+}
+.deselected{
+  fill: lightgrey;
+}
+.view_content{
+  display: grid;
+}
+#zoomable path{
+  stroke: white;
+}
+
+.header_holder{
+  color: grey;
+}
+table.TF th{
+  padding: .1em 1.4em .1em 0.7em !important;
+}
+#myProgress {
+  width: 100vw;
+  background-color: lightgray;
+}
+#myBar {
+  width: 10%;
+  height: 1px;
+  background-color: red;
+}
+#total_cost_var{
+  font-weight: bold;
+}
+select.flt_multi{
+  width: auto !important;
+}
+#demo thead tr:first-child th{
+  display: table-cell !important;
+}
+.extra_vars{
+  display: inline-table;
+  vertical-align: middle;
+}
+.extra_vars_input{
+  margin: 0px 0px 0px 10px;
+  width: 140px;
+}
+.extra_vars + .extra_vars{
+  position: absolute;
+  right: 5px;
+  font-size: 14px;
+}
+.login_form{
+  position: absolute;
+  display: inline-block;
+  top: 15px;
+  right: 5px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.login_form input[type=submit]{
+  display: none;
+  font-weight: normal;
+}
+.login_input{
+  display: inline-table;
+  margin: 0px;
+  margin-left: 10px;
+  width: 150px;
+}
+h1{
+  margin-top: 50px;
+}
+#logout_button{
+  width: 100%;
+  padding: 0px 10px;
+  display: inline-block;
+  height: 26px;
+}
+.export_import{
+  display: inline-table;
+  vertical-align: middle;
+  margin: 0px 10px 0px 0px;
+}
